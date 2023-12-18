@@ -41,6 +41,11 @@
                 <i class="fas fa-user"></i> Kurikulum</a>
                 </li>
 
+                <li class="nav-item">
+                <a class="nav-link {{ request()->segment('1') =='pesertadidik'  ? 'active' : '' }}" aria-current="page" href="{{ route('Pesertadidik.index') }}">
+                <i class="fas fa-user"></i> Peserta Didik</a>
+                </li>
+
             </ul>
             </div>
         </div>

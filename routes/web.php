@@ -3,6 +3,7 @@
 use App\Http\Controllers\GuruController;
 use App\Http\Controllers\KurikulumController;
 use App\Http\Controllers\PelajaranController;
+use App\Http\Controllers\PesertadidiksController;
 use App\Http\Controllers\SiswaController;
 use Illuminate\Support\Facades\Route;
 
@@ -42,5 +43,6 @@ Route::delete('guru/{id}', [GuruController::class, 'destroy']);
 Route::resource('pelajaran', PelajaranController::class);
 
 Route::resource('kurikulum', KurikulumController::class);
+Route::resource('Pesertadidik', PesertadidiksController::class);
 
 

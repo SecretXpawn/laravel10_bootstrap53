@@ -7,10 +7,10 @@
     @csrf
 <table>
     <tr>
-        <td>Nama Kurikulum</td><td><input type="text" name="nama_kurikulum"></td>
+        <td>Nama Peserta</td><td><input type="text" name="nama_peserta"></td>
     </tr>
     <tr>
-        <td>Tahun</td><td><input type="text" name="tahun"></td>
+        <td>Tahun Peserta</td><td><input type="text" name="tahun_peserta"></td>
     </tr>
     <tr>
         <td><input type="submit" value="Kirim"></td>
